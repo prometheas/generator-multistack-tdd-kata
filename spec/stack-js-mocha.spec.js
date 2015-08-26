@@ -5,7 +5,7 @@ var helpers = require('yeoman-generator').test;
 var path = require('path');
 var os = require('os');
 
-describe('js-mocha kata stack', function (done) {
+describe('js-mocha kata stack', function () {
 
   it('installs the correct files', function (done) {
 
