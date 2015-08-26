@@ -12,6 +12,7 @@
   "noarg": true,
   "quotmark": "single",
   "undef": true,
+  "predef": ["describe", "it"],
   "unused": true,
   "strict": true
 }
