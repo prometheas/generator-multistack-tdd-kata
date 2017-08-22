@@ -7,20 +7,11 @@
 [![bitHound Dev Dependencies](https://www.bithound.io/github/prometheas/generator-multistack-tdd-kata/badges/devDependencies.svg)](https://www.bithound.io/github/prometheas/generator-multistack-tdd-kata/develop/dependencies/npm)
 [![bitHound Code](https://www.bithound.io/github/prometheas/generator-multistack-tdd-kata/badges/code.svg)](https://www.bithound.io/github/prometheas/generator-multistack-tdd-kata)
 
-This project started as a fork of [boogie666](https://github.com/boogie666)'s
-[generator-tdd-kata](https://github.com/boogie666/generator-tdd-kata) project,
-which helps you whip up a clean TDD kata project in JavaScript, and using
-[Mocha](http://mochajs.org/) for its testing.
+This project started as a fork of [boogie666](https://github.com/boogie666)'s [generator-tdd-kata](https://github.com/boogie666/generator-tdd-kata) project, which helps you whip up a clean TDD kata project in JavaScript, using [Mocha](http://mochajs.org/) for its testing.
 
-I thought this was super convenient, but immediately I work with various
-languages at work and for hobby, so I immediately wanted to be able to have
-the option to do these katas in the language of my choosing at the moment.
+I thought this was super convenient and smart, but I work with various languages at work and for hobby, so I immediately wanted to be able to have the option to perform these katas in the language of my choosing at the moment.
 
-I'm also working on a team that is in the midst of evaluating a variety of
-options to introduce automated testing into a legacy codebase, so we're trying
-to get a feel for what different testing solutions are like to use.
-
-And so this fork was born.
+And so this project was born.
 
 
 ## What's a kata?
