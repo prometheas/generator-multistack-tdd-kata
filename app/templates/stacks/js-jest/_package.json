@@ -1,0 +1,15 @@
+{
+  "name": "<%= kata.slug %>-with-jest",
+  "version": "<%= version %>",
+  "description": "jest-based TDD kata for <%= kata.slug %>",
+  "main": "src/<%= kata.slug %>.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "<%= name %>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^2.2.1"
+  }
+}
