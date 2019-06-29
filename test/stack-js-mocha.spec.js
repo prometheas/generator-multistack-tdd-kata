@@ -7,9 +7,9 @@ var os = require('os');
 var shell = require('shelljs');
 
 describe('js-mocha kata stack', function () {
-  var tempTestingDir = path.join(os.tmpdir(), './temp-test');
-
   it('installs the correct files', function (done) {
+    var tempTestingDir = path.join(os.tmpdir(), './temp-test-js-mocha-1');
+
     helpers
       .run(path.join(__dirname, '../app'))
       .inDir(tempTestingDir)
@@ -36,6 +36,8 @@ describe('js-mocha kata stack', function () {
   });
 
   it('can properly run a failing test after installation', function (done) {
+    var tempTestingDir = path.join(os.tmpdir(), './temp-test-js-mocha-2');
+
     this.timeout(20000);
 
     helpers

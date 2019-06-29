@@ -9,7 +9,7 @@ describe('php-unit kata stack', function () {
   it('installs the correct files', function (done) {
     helpers
       .run(path.join(__dirname, '../app'))
-      .inDir(path.join(os.tmpdir(), './temp-test'))
+      .inDir(path.join(os.tmpdir(), './temp-test-php-unit'))
       .withOptions({
         'skip-install': true
       })
