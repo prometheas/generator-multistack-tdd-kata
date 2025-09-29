@@ -4,13 +4,13 @@
   "description": "Mocha-based TDD kata for <%= kata.slug %>",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --opts test/mocha.opts"
+    "test": "mocha --glob '*.spec.js' --recursive test"
   },
   "author": "<%= name %>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "chai": "^2.2.0",
-    "mocha": "^2.2.1"
+    "chai": "^4.3.0",
+    "mocha": "^9.2.0"
   }
 }
