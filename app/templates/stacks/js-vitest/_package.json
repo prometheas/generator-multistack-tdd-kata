@@ -1,0 +1,16 @@
+{
+  "name": "<%= kata.slug %>-with-vitest",
+  "version": "<%= version %>",
+  "description": "Vitest-based TDD kata for <%= kata.slug %>",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "author": "<%= name %>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,10 +1,11 @@
-const assert = require('yeoman-assert');
-const helpers = require('yeoman-test');
-const path = require('path');
-const os = require('os');
+import { describe, it } from 'vitest';
+import assert from 'yeoman-assert';
+import helpers from 'yeoman-test';
+import path from 'path';
+import os from 'os';
 
-describe('php-phpspec kata stack', function () {
-  it('installs the correct files', async function () {
+describe('php-phpspec kata stack', () => {
+  it('installs the correct files', async () => {
     await helpers
       .run(path.join(__dirname, '../app'))
       .inDir(path.join(os.tmpdir(), './temp-test'))

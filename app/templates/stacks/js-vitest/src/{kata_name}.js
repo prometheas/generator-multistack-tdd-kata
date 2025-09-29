@@ -2,4 +2,4 @@
  * <%= kata.slug %> implementation file
  */
 
-module.exports = null;
+export default null;

@@ -53,7 +53,7 @@ module.exports = class extends Generator {
         type: 'list',
         message: 'What testing stack?',
         choices: availableStacks,
-        default: 'js-mocha',
+        default: 'js-vitest',
       },
     ];
 
